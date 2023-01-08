@@ -1,0 +1,10 @@
+{
+  "icons": [
+    {
+      "src": "images/gus-fav-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    { "src": "images/gus-fav-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

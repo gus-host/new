@@ -1,0 +1,484 @@
+/* Page one */
+/*******************************************/
+/* SECTION LOGIN */
+/*******************************************/
+.section-login {
+  background-image: linear-gradient(
+      rgba(251, 229, 60, 0.3),
+      rgba(251, 229, 60, 0.199)
+    ),
+    url("./images/login.img.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 9.6rem 0;
+  /* height: 100vh; */
+}
+
+.login-container {
+  width: 75.6rem;
+  margin: 0 auto;
+  padding: 0 12.8rem;
+
+  text-align: center;
+}
+
+.login-heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  letter-spacing: -1.05px;
+  color: #322e0c;
+}
+
+.login-sub-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #e2ce36ac;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.login-sub-heading span {
+  display: inline-block;
+  width: 60%;
+}
+
+/* .login-image-box {
+} */
+.login-logo {
+  width: 12.4rem;
+}
+
+.container-width.pad-top {
+  padding: 6.4rem 1.6rem 2.4rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.container-width.pad-mid {
+  padding: 2.4rem 1.6rem 3.2rem;
+  border-radius: 0;
+}
+.container-width.pad-btm {
+  padding: 0.8rem 1.6rem 8rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.login-details {
+  width: 36.2rem;
+  text-align: left;
+  margin-left: 5rem;
+}
+.login-image-box,
+.login-text,
+.form {
+  width: 100%;
+}
+
+.container-width {
+  width: 50rem;
+
+  font-weight: 500;
+  padding-right: 3.2rem;
+  background-color: #ffffffcc;
+  border-radius: 5px;
+}
+
+.input,
+.label {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+}
+
+.label {
+  color: #262209;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+.login-email-box {
+  margin-bottom: 1.6rem;
+}
+
+.login-password-box {
+  margin-bottom: 3.2rem;
+}
+
+.input {
+  outline: none;
+  padding: 1.2rem 0;
+  border: 1px solid #dbdad0;
+  background-color: #fffcec;
+  border-radius: 5px;
+  box-shadow: 0 0.05px 2px 0 rgba(75, 68, 18, 0.128);
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.4rem;
+  color: #35300d;
+  opacity: 80%;
+}
+
+.btn-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.google-login {
+  width: 2.4rem;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  width: inherit;
+  padding: 1.6rem 3.2rem;
+  cursor: pointer;
+}
+
+.no-pad {
+  padding: 0 !important;
+}
+
+.outline:focus {
+  outline: none;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.full:focus {
+  outline: none;
+  box-shadow: 0 0 0 0;
+}
+
+.full {
+  color: #fbe43c;
+}
+
+/* Page 2  */
+/*********************************/
+/* SECTION HERO */
+/*********************************/
+.section-hero {
+  background-color: #fffcec;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero-img-box {
+  justify-self: center;
+  width: 100%;
+  position: relative;
+}
+/* 
+.hero-text-box {
+} */
+.hero-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-img {
+  align-self: center;
+  width: 100%;
+}
+
+/*********************************/
+/* HEADER */
+/*********************************/
+
+.logo-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.2rem;
+
+  background-color: #fffcec;
+  padding: 3.2rem 4.8rem 0;
+}
+
+.logo-container {
+  flex-basis: 4.4rem;
+}
+
+.logo-center {
+  position: relative;
+}
+
+.logo-center::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 50% 0;
+  border-radius: 50%;
+  background-color: #322e0c;
+}
+.logo {
+  height: 3.2rem;
+}
+
+.logo-g {
+  height: 2.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*********************************/
+/* SECTION SHOES */
+/*********************************/
+.section-shoes {
+  padding: 9.6rem 0;
+}
+
+.shoe-grid {
+  display: grid;
+  column-gap: 4.8rem;
+  row-gap: 6.4rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.shoe-grid.shoe-grid--1 {
+  margin-bottom: 8rem;
+}
+
+.shoe-box {
+  text-align: center;
+  box-shadow: 0 1.2rem 2.4rem rgba(75, 68, 18, 0.167);
+  transition: all 0.5s;
+}
+
+.shoe-box:hover {
+  transform: translateY(-1.6rem);
+  box-shadow: 0 2.4rem 4.8rem rgba(75, 68, 18, 0.139);
+}
+.shoe-box-container {
+  width: 100%;
+}
+.shoe-img {
+  width: 100%;
+}
+.shoe-price {
+  font-size: 3.6rem;
+  font-weight: 600;
+  letter-spacing: -1.6px;
+  color: #322e0c;
+}
+
+.naira {
+  font-size: 2.4rem;
+  color: #817c59;
+  margin-right: 0.8rem;
+}
+.former-price {
+  font-size: 1.8rem;
+  color: #938f71;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.price-text {
+  font-size: 2.2rem;
+}
+.price-text span {
+  font-weight: 600;
+}
+.shoe-box-content {
+  padding: 0 1.6rem;
+  margin-top: 3.2rem;
+}
+.shoe-button-box {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.shoe-box-content p {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.shoe-button-box li .btn--outline {
+  border: 0.05px solid #4b441250;
+}
+.user-react .shoe-icon {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 1rem;
+  /* color: #fbe43c; */
+  /* background-color: #4b4412; */
+  border-radius: 50%;
+}
+
+.user-react ion-icon.shoe-icon {
+  background-color: transparent;
+  transition: all 0.3s;
+}
+.user-react ion-icon.shoe-icon:hover,
+.user-react ion-icon.shoe-icon:active {
+  background-color: #fbe43c;
+}
+
+.user-react {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4.8rem 0 3.2rem;
+  padding: 0 1.2rem;
+}
+
+.user-react p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+li a.btn.btn--outline .btn-align:link,
+li a.btn.btn--outline .btn-align:active {
+  color: #3c360e;
+  transition: all 0.3s;
+}
+li a.btn.btn--outline:hover,
+li a.btn.btn--outline:active {
+  color: #978924;
+}
+
+/*********************************/
+/* SECTION FAQ*/
+/*********************************/
+
+.section-faq {
+  padding: 9.6rem 4.8rem;
+  margin: 0 auto;
+  background-image: linear-gradient(rgb(25, 23, 6, 0.7), rgba(25, 23, 6, 0.7)),
+    url(./images/FQA.jpg);
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.faq-container {
+  max-width: 60rem;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.824);
+  padding: 6.4rem 3.2rem;
+  border-radius: 5px;
+}
+
+.heading-secondary.mag-down {
+  /* color: #fdf4b1; */
+  margin-bottom: 1.6rem;
+}
+
+.faq-container p {
+  font-size: 1.8rem;
+  /* color: #fdf4b1; */
+  margin-bottom: 3.2rem;
+}
+
+.textarea {
+  display: block;
+  border: 1px solid #4b4412;
+  border-radius: 11px;
+  width: 80%;
+  background-color: transparent;
+}
+
+.textarea:focus {
+  /* background-color: ; */
+  box-shadow: 0 0 0.5rem 0.6rem #fefad8;
+}
+
+.faq-form .textarea {
+  margin-bottom: 4.8rem;
+}
+/*********************************/
+/* SECTION FOOTER*/
+/*********************************/
+
+.section-footer {
+  padding: 9.6rem 0;
+  text-align: center;
+}
+
+.footer-logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  /* width: 9.5rem; */
+
+  /* padding: 3.2rem 4.8rem 0; */
+  /* display: inline-block; */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  list-style: none;
+  margin-top: 4.8rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #817c59;
+  transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:active {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #322e0c;
+}
+
+/* Page 3 */
+/*********************************/
+/* HEADER */
+/*********************************/
+
+.enquiry-logo-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.2rem;
+
+  background-color: transparent;
+  padding: 3.2rem 4.8rem 0;
+}
+
+.hero-header {
+  padding-bottom: 9.6rem;
+  background-image: linear-gradient(
+      rgba(50, 46, 12, 0.722),
+      rgba(50, 46, 12, 0.637)
+    ),
+    url(./images/FQA.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
