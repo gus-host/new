@@ -208,7 +208,10 @@ button {
 
 .nav-container {
   padding: 3.2rem;
-  position: absolute;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0.3)
+  );
   display: flex;
   justify-content: space-between;
 }
