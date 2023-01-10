@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -35,19 +41,52 @@
     <title>Gus</title>
   </head>
   <body>
-    <header>
-      <div class="logo-box">
-        <div class="logo-container">
-          <div class="logo-center">
-            <a href="#"
-              ><img class="logo logo-g" src="images/Gus-G.png" alt="Gus logo"
-            /></a>
-          </div>
-        </div>
-        <a href="#"
-          ><img class="logo" src="images/Gus-test.png" alt="Gus logo"
+    <header class="header">
+      <!-- <div class="logo-box"> -->
+      <!-- <div class="logo-container"> -->
+      <!-- <div class="logo-center"> -->
+      <nav class="navbar fixed-top navbar-expand-sm nav-container">
+        <a href="#" class="header-logo-box">
+          <span>
+            <span class="header-logo-container"
+              ><img class="logo logo-cos" src="images/Gus-G.png" alt="Gus logo"
+            /></span>
+          </span>
+          <img class="logo" src="images/Gus-test.png" alt="Gus logo"
         /></a>
-      </div>
+        <button
+          class="navbar-toggler navbar-tog"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          data-bs-target="#navbarNav"
+          data-bs-toggle="collapse"
+        >
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        </button>
+        <!-- </div> -->
+        <!-- </div> -->
+        <div class="collapse navbar-collapse nav-bar" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#male-shoes" class="nav-link">Male Shoes</a>
+              <!-- Adding a class 'active' to the any of the link will make the font look bolder
+             eg <a href="#" class="nav-link active">Home</a>
+             -->
+              <!-- While adding 'disable' will make the font lighter -->
+            </li>
+            <li class="nav-item">
+              <a href="#female-shoes" class="nav-link">Female Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#faq" class="btn btn--full btn--form no-pad">
+                <button class="full full-nav">Make Enquiry</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- </div> -->
     </header>
     <main>
       <section class="section-hero">
@@ -68,7 +107,7 @@
         </div>
       </section>
       <section class="section-shoes">
-        <div class="container">
+        <div class="container" id="male-shoes">
           <div class="subheading">Male shoes</div>
           <h2 class="heading-secondary">Our Best Selling Men Shoes</h2>
         </div>
@@ -408,7 +447,7 @@
             </div>
           </div>
         </div>
-        <div class="container">
+        <div class="container" id="female-shoes">
           <div class="subheading">Female shoes</div>
           <h2 class="heading-secondary">Our Best Selling Women Shoes</h2>
         </div>
@@ -757,7 +796,7 @@
             <textarea
               id="enquiry"
               class="textarea"
-              rows="6"
+              rows="11"
               required
             ></textarea>
 
@@ -793,5 +832,11 @@
         </ul>
       </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

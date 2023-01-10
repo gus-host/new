@@ -12,6 +12,10 @@
   .logo-box {
     padding-left: 3.2rem;
   }
+
+  html {
+    font-size: 56.25%;
+  }
 }
 
 @media (max-width: 71.5625em) {
@@ -109,7 +113,7 @@
     width: 60%;
   }
 }
-@media (max-width: 31.1875em) {
+@media (max-width: 32.6875em) {
   /* .logo-box {
     padding-left: 3.2rem;
   } */
@@ -193,5 +197,36 @@
 
   .footer-logo-box {
     gap: 3.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-nav li {
+    margin-bottom: 2.4rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #161405;
+  }
+
+  .navbar-expand-sm .navbar-collapse {
+    margin-top: 3.2rem;
+    -webkit-backdrop-filter: blur(0.8px);
+    backdrop-filter: blur(2.4px);
+  }
+  *:focus {
+    outline: none;
+    /* box; */
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0.5rem 0.5rem rgba(251, 229, 60, 0.578);
   }
 }

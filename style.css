@@ -10,7 +10,7 @@
     url("./images/login.img.jpg");
   background-size: cover;
   background-position: center;
-  padding: 9.6rem 0 12.8rem 0;
+  padding: 9.6rem 0;
   /* height: 100vh; */
 }
 
@@ -200,6 +200,21 @@ button {
 /* HEADER */
 /*********************************/
 
+.header {
+  padding: 4.8rem;
+  height: 9.6rem;
+  background-color: #fffcec;
+}
+
+.nav-container {
+  padding: 3.2rem;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0.3)
+  );
+  display: flex;
+  justify-content: space-between;
+}
 .logo-box {
   display: flex;
   justify-content: left;
@@ -229,8 +244,39 @@ button {
   border-radius: 50%;
   background-color: #322e0c;
 }
+
 .logo {
   height: 3.2rem;
+}
+
+.logo-cos {
+  height: 2.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-logo-container {
+  position: relative;
+  padding: 0 1.2rem 0 3.2rem;
+}
+
+.header-logo-container::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2.2rem;
+  background-color: #322e0c;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.header-logo-box {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
 
 .logo-g {
@@ -239,6 +285,57 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.navbar-expand-sm .navbar-collapse {
+  align-items: center;
+}
+.navbar-expand-sm .navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav li:last-child {
+  margin-left: 1.6rem;
+}
+.collapse.navbar-collapse.nav-bar {
+  /* transform: translateX(60%); */
+  justify-content: flex-end;
+}
+
+.navbar-toggler-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.navbar-nav {
+  justify-self: flex-end;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #161405;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  color: #978924;
+}
+
+.full-nav {
+  padding: 0.8rem 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #4b4412;
+}
+
+.navbar-tog {
+  padding: 0;
 }
 
 /*********************************/
