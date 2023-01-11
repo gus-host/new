@@ -214,7 +214,7 @@
 
   .navbar-expand-sm .navbar-collapse {
     margin-top: 3.2rem;
-    -webkit-backdrop-filter: blur(0.8px);
+    -webkit-backdrop-filter: blur(2.4px);
     backdrop-filter: blur(2.4px);
   }
   *:focus {

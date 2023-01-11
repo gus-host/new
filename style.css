@@ -99,6 +99,16 @@
   margin-bottom: 1rem;
   font-family: "Rubik", sans-serif;
 }
+
+.label::before {
+  content: "* ";
+  /* font-weight: 500; */
+  /* font-size: 1.8rem; */
+  color: red;
+  display: inline-block;
+  margin-right: 0.4rem;
+  transform: translateY(20%);
+}
 .login-email-box {
   margin-bottom: 1.6rem;
 }
