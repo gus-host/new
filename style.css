@@ -7,7 +7,7 @@
       rgba(251, 229, 60, 0.3),
       rgba(251, 229, 60, 0.199)
     ),
-    url("./images/login.img.jpg");
+    url('./images/login.img.jpg');
   background-size: cover;
   background-position: center;
   padding: 9.6rem 0;
@@ -89,7 +89,7 @@
   display: block;
   width: 100%;
   text-align: left;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .label {
@@ -97,11 +97,11 @@
   font-weight: 600;
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .label::before {
-  content: "* ";
+  content: '* ';
   /* font-weight: 500; */
   /* font-size: 1.8rem; */
   color: red;
@@ -128,7 +128,7 @@
 
 input::placeholder {
   font-weight: 400;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.4rem;
   color: #35300d;
   opacity: 80%;
@@ -148,7 +148,7 @@ input::placeholder {
 button {
   border: none;
   background-color: transparent;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: inherit;
   font-weight: inherit;
   width: inherit;
@@ -244,7 +244,7 @@ button {
 }
 
 .logo-center::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -272,7 +272,7 @@ button {
 }
 
 .header-logo-container::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -440,8 +440,12 @@ button {
   background-color: transparent;
   transition: all 0.3s;
 }
-.user-react ion-icon.shoe-icon:hover,
+/* .user-react ion-icon.shoe-icon:hover,
 .user-react ion-icon.shoe-icon:active {
+  background-color: #fbe43c;
+} */
+
+.user-react ion-icon.shoe-icon.background-color {
   background-color: #fbe43c;
 }
 
